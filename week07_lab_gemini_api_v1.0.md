@@ -910,9 +910,7 @@ class MyApp extends StatelessWidget {
 (ก) Tab หน้าหลักที่มี Bottom Navigation Bar แสดงอยู่ด้านล่าง
 
 
-
-<img width="377" height="827" alt="image" src="https://github.com/user-attachments/assets/75da9dcc-5a81-4021-bad5-fd9c567ad5ff" />
-
+<img width="377" height="827" alt="image" src="https://github.com/user-attachments/assets/bd28fe5c-4222-4e98-8f3b-3a71c93caa79" />
 
 
 
@@ -920,8 +918,6 @@ class MyApp extends StatelessWidget {
 (ข) Tab ลงประกาศขายที่เลือกรูปภาพสินค้าไว้แล้ว 
 
 
-
-<img width="370" height="812" alt="image" src="https://github.com/user-attachments/assets/21d9cc37-3b81-4c2c-80b3-dc289fab0504" />
 
 
 
