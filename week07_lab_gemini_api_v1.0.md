@@ -1005,9 +1005,24 @@ class ListingDraft {
 เพิ่มปุ่มที่เก็บค่าจากฟอร์ม (ซึ่งอาจถูกผู้ใช้แก้ไขแล้วหรือไม่ก็ได้) เป็นร่างประกาศฉบับสุดท้ายไว้ใน State ของแอป (ยังไม่ต้องบันทึกถาวร เพราะเรื่อง Local Database อยู่ในสัปดาห์ที่ 8) หลังยืนยันสำเร็จ ให้แสดง `SnackBar` ยืนยัน (เช่น "บันทึกร่างประกาศเรียบร้อยแล้ว") แล้วล้างฟอร์ม (รูปภาพที่เลือก, ค่าใน `TextEditingController` ทั้ง 3 ช่อง) กลับสู่สถานะว่างเปล่าพร้อมเริ่มลงประกาศใหม่ **ไม่ต้อง `Navigator.pop()`** เหมือนหน้าที่เปิดด้วย `Navigator.push` เพราะตอนนี้ `SellItemPage` เป็น Tab หนึ่งใน Bottom Navigation Bar แล้ว (ตั้งแต่ขั้นตอนที่ 3.3) ไม่ได้ถูกเปิดแบบ Push/Pop อีกต่อไป ผู้ใช้ที่ต้องการกลับหน้าหลักให้กดที่ Tab "หน้าหลัก" ด้านล่างจอเองแทน
 
 > ✅ **Checkpoint 5.1** ถ่ายภาพหน้าจอ 2 ภาพเทียบกัน คือ (ก) ค่าที่ AI แนะนำมาตอนแรก และ (ข) ค่าหลังจากคุณแก้ไขบางส่วนแล้วกดยืนยัน 
-```text
-บันทึกผลลัพธ์ที่นี่
-```
+
+**(ก) ค่าที่ AI แนะนำมาตอนแรก** 
+
+
+<img width="371" height="862" alt="image" src="https://github.com/user-attachments/assets/a3f5d4e4-a522-4b84-bac5-047d9aefb998" />
+
+
+
+**(ข) ค่าหลังจากคุณแก้ไขบางส่วนแล้วกดยืนยัน**
+
+<img width="381" height="832" alt="image" src="https://github.com/user-attachments/assets/d408300c-f718-4a99-b6d7-e2e38daeb276" />
+
+
+<img width="372" height="770" alt="image" src="https://github.com/user-attachments/assets/5c16d5fd-44a0-4ec7-991a-ba6c4e48935f" />
+
+
+<img width="375" height="855" alt="image" src="https://github.com/user-attachments/assets/7379e56a-969c-4b64-a076-109bb6e07ef6" />
+
 
 ---
 
